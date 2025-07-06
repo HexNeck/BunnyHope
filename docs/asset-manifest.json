@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BunnyHope/static/css/main.7dc41d5b.css",
-    "main.js": "/BunnyHope/static/js/main.f523b390.js",
+    "main.css": "/BunnyHope/static/css/main.ac52aa00.css",
+    "main.js": "/BunnyHope/static/js/main.9299ddcd.js",
     "static/js/453.b1281ecb.chunk.js": "/BunnyHope/static/js/453.b1281ecb.chunk.js",
     "index.html": "/BunnyHope/index.html",
-    "main.7dc41d5b.css.map": "/BunnyHope/static/css/main.7dc41d5b.css.map",
-    "main.f523b390.js.map": "/BunnyHope/static/js/main.f523b390.js.map",
+    "main.ac52aa00.css.map": "/BunnyHope/static/css/main.ac52aa00.css.map",
+    "main.9299ddcd.js.map": "/BunnyHope/static/js/main.9299ddcd.js.map",
     "453.b1281ecb.chunk.js.map": "/BunnyHope/static/js/453.b1281ecb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dc41d5b.css",
-    "static/js/main.f523b390.js"
+    "static/css/main.ac52aa00.css",
+    "static/js/main.9299ddcd.js"
   ]
 }
