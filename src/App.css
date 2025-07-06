@@ -16,9 +16,10 @@
 }
 
 .logo-full {
-  max-width: 90%;
-  max-height: 90%;
-  object-fit: contain;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
 }
 
 .logo-curve {
@@ -67,4 +68,31 @@
 
 .signup-form button:hover {
   background: #9c27b0;
+}
+
+.feature-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  max-width: 600px;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.sweet-dreams {
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.gif-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gif {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  object-fit: cover;
 }
