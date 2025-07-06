@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./App.css";
 
-export default function BunnyHopeLandingPage() {
+export default function App() {
   return (
       <div className="landing-container">
         {/* Header */}
