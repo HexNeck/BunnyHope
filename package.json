@@ -2,7 +2,7 @@
   "name": "bunny-hope-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bartoszslowi.github.io/bunny-hope-landing",
+  "homepage": "https://hexneck.github.io/BunnyHope",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
