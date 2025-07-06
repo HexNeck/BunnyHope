@@ -7,6 +7,7 @@ export default function App() {
         <div className="landing-container">
             {/* Header */}
             <header className="landing-header">
+                <img src="logo.png" alt="Bunny Hope Logo" className="logo" />
             </header>
 
             {/* Main content */}
