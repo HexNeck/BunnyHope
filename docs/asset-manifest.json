@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BunnyHope/static/css/main.ac52aa00.css",
-    "main.js": "/BunnyHope/static/js/main.9299ddcd.js",
-    "static/js/453.b1281ecb.chunk.js": "/BunnyHope/static/js/453.b1281ecb.chunk.js",
-    "index.html": "/BunnyHope/index.html",
-    "main.ac52aa00.css.map": "/BunnyHope/static/css/main.ac52aa00.css.map",
-    "main.9299ddcd.js.map": "/BunnyHope/static/js/main.9299ddcd.js.map",
-    "453.b1281ecb.chunk.js.map": "/BunnyHope/static/js/453.b1281ecb.chunk.js.map"
+    "main.css": "/static/css/main.ac52aa00.css",
+    "main.js": "/static/js/main.a48c7da5.js",
+    "static/js/453.b1281ecb.chunk.js": "/static/js/453.b1281ecb.chunk.js",
+    "index.html": "/index.html",
+    "main.ac52aa00.css.map": "/static/css/main.ac52aa00.css.map",
+    "main.a48c7da5.js.map": "/static/js/main.a48c7da5.js.map",
+    "453.b1281ecb.chunk.js.map": "/static/js/453.b1281ecb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac52aa00.css",
-    "static/js/main.9299ddcd.js"
+    "static/js/main.a48c7da5.js"
   ]
 }
