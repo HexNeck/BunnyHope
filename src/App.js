@@ -9,10 +9,7 @@ export default function App() {
     return (
         <div className="landing-container">
             {/* Full-page logo section */}
-            <motion.section
-                className="logo-section"
-                style={{ opacity }}
-            >
+            <motion.section className="logo-section" style={{ opacity }}>
                 <img src="logo.png" alt="Bunny Hope Logo" className="logo-full" />
                 <div className="logo-curve"></div>
             </motion.section>
@@ -20,13 +17,12 @@ export default function App() {
             {/* Main content */}
             <main className="landing-main">
                 <h1>Welcome to Bunny Hope</h1>
-                <p>
+                <p className="intro-text">
                     In Bunny Hope, you’re a brave bunny fighting nightmares to help
                     children sleep peacefully. Use powerful cards and clever strategy in
                     this cozy, dreamlike adventure.
                 </p>
-
-                <p>
+                <p className="intro-text">
                     Bunny Hope is a turn-based card battler where you wield dreams,
                     stories and even light as weapons. Build your deck, defeat nightmares,
                     and guide children toward peaceful slumber. Blending whimsical charm
@@ -34,30 +30,38 @@ export default function App() {
                     tactical games with heart.
                 </p>
 
-                <ul className="feature-list">
-                    <li>Build and customize your dream-powered card deck</li>
-                    <li>
+                <div className="feature-block">
+                    <img src="gif1.gif" alt="Build deck" className="gif-inline" />
+                    <p>Build and customize your dream-powered card deck</p>
+                </div>
+
+                <div className="feature-block">
+                    <img src="gif2.gif" alt="Explore world" className="gif-inline" />
+                    <p>
                         Explore hand-painted dream worlds, from cozy nurseries to eerie
                         nightmare realms
-                    </li>
-                    <li>Attack with lullabies, paintbrushes, and musical blasts</li>
-                    <li>Defeat bizarre enemies like shadow monsters and conquer fears</li>
-                    <li>
-                        Unlock unique bunnies, each with their own powers and personalities
-                    </li>
-                </ul>
-
-                <p className="sweet-dreams">Sweet dreams</p>
-
-                <div className="gif-grid">
-                    <img src="gif1.gif" alt="Bunny Hope gameplay 1" className="gif" />
-                    <img src="gif2.gif" alt="Bunny Hope gameplay 2" className="gif" />
-                    <img src="gif3.gif" alt="Bunny Hope gameplay 3" className="gif" />
-                    <img src="gif4.gif" alt="Bunny Hope gameplay 4" className="gif" />
+                    </p>
                 </div>
+
+                <div className="feature-block">
+                    <img src="gif3.gif" alt="Attack" className="gif-inline" />
+                    <p>Attack with lullabies, paintbrushes, and musical blasts</p>
+                </div>
+
+                <div className="feature-block">
+                    <img src="gif4.gif" alt="Enemies" className="gif-inline" />
+                    <p>
+                        Defeat bizarre enemies like shadow monsters and conquer fears
+                    </p>
+                </div>
+
+                <img src="gif5.gif" alt="Enemies" className="gif-inline" />
+                <p>
+                    Defeat bizarre enemies like shadow monsters and conquer fears
+                </p>                <p className="sweet-dreams">Sweet dreams</p>
             </main>
 
-            {/* Footer / signup */}
+            {/* Footer */}
             <footer className="landing-footer">
                 <h2>Stay Updated!</h2>
                 <p>Sign up to get notified when Bunny Hope is ready!</p>
