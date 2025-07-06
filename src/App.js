@@ -1,29 +1,31 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import "./App.css";
 
 export default function App() {
+    const { scrollY } = useScroll();
+    const opacity = useTransform(scrollY, [0, 200], [1, 0]);
+
     return (
         <div className="landing-container">
-            {/* Header */}
-            <header className="landing-header">
-                <img src="logo.png" alt="Bunny Hope Logo" className="logo" />
-            </header>
+            {/* Full-page logo section */}
+            <motion.section
+                className="logo-section"
+                style={{ opacity }}
+            >
+                <img src="logo.png" alt="Bunny Hope Logo" className="logo-full" />
+                <div className="logo-curve"></div>
+            </motion.section>
 
             {/* Main content */}
-            <motion.main
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
-                className="landing-main"
-            >
+            <main className="landing-main">
                 <h1>Welcome to Bunny Hope</h1>
                 <p>
                     In Bunny Hope, you play as a brave bunny battling nightmares to help
                     children sleep peacefully. Use powerful cards and strategy in this
                     cozy adventure!
                 </p>
-            </motion.main>
+            </main>
 
             {/* Footer / signup */}
             <footer className="landing-footer">
