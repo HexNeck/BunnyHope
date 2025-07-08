@@ -67,12 +67,12 @@ export default function App() {
                 <p>Sign up to get notified when Bunny Hope is ready!</p>
                 <form
                     className="signup-form"
-                    onSubmit={(e) => {
-                        e.preventDefault();
-                        alert("Thank you for signing up!");
-                    }}
+                    action="https://eepurl.com/jiORRI"
+                    method="post"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
-                    <input type="email" placeholder="Your email address" required />
+                    <input type="email" name="EMAIL" placeholder="Your email address" required />
                     <button type="submit">Notify Me</button>
                 </form>
             </footer>
