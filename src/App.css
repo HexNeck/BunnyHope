@@ -125,3 +125,25 @@
   text-align: center;
   margin: 1rem 0;
 }
+
+.mailchimp-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.mailchimp-form input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.mailchimp-form button {
+  padding: 0.5rem 1rem;
+  background-color: #4a148c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
