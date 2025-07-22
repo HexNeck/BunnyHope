@@ -11,7 +11,19 @@ export default function App() {
             {/* Full-page logo section */}
             <motion.section className="logo-section" style={{ opacity }}>
                 <img src="logo.png" alt="Bunny Hope Logo" className="logo-full" />
-                <div className="logo-curve"></div>
+
+                <div className="scroll-down-indicator" onClick={() => {
+                    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
+                }}>
+                    Scroll down
+                    <div className="arrows">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+                <div className="logo-curve-overlay"></div>
             </motion.section>
 
             {/* Main content */}
