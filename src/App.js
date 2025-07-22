@@ -9,23 +9,10 @@ export default function App() {
     return (
         <div className="landing-container">
             {/* Full-page logo section */}
-            <motion.section className="logo-section" style={{ opacity }}>
+            <div className="logo-section">
                 <img src="logo.png" alt="Bunny Hope Logo" className="logo-full" />
-
-                <div className="scroll-down-indicator" onClick={() => {
-                    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
-                }}>
-                    Scroll down
-                    <div className="arrows">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-
                 <div className="logo-curve-overlay"></div>
-            </motion.section>
-
+            </div>
             {/* Main content */}
             <main className="landing-main">
                 <h1>Welcome to Bunny Hope</h1>
