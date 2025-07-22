@@ -5,16 +5,6 @@
   min-height: 100vh;
 }
 
-.logo-section {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  background: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .logo-full {
   width: 100%;
   height: auto;
@@ -148,16 +138,6 @@
   font-weight: bold;
 }
 
-.logo-section {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: black;
-  overflow: hidden;
-}
-
 .logo-full {
   max-width: 90%;
   height: auto;
@@ -212,18 +192,39 @@
   0%, 100% { opacity: 0.3; transform: translateY(0) rotate(45deg); }
   50% { opacity: 1; transform: translateY(6px) rotate(45deg); }
 }
+.logo-section {
+  height: 100vh;
+  max-height: 720px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+/* Mobile override: shrink the section height */
 @media (max-width: 768px) {
   .logo-section {
-    height: 100vh;
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
   }
 
   .logo-full {
-    width: 100%;
-    max-height: 70vh;
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
   }
 
   .logo-curve-overlay {
-    height: 120px;
+    height: 80px;
+  }
+
+  .scroll-down-indicator {
+    bottom: 40px;
   }
 }
+
